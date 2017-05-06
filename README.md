@@ -1,10 +1,8 @@
 # Starbird
 
-Starbird watches for any repos you star on GitHub and tweets them on your account.
+Using a scheduled AWS lambda function, starbird checks for newly starred repos on your GitHub account every minute and tweets any new ones on your twitter account. For example:
 
-![screenshot](twitter-screenshot.png)
-
-Using a scheduled AWS lambda function, this project checks for newly starred repos on your GitHub account every minute and tweets any new ones.
+<img src="twitter-screenshot.png" alt="tweet example" width="600"/>
 
 ## Setup
 
